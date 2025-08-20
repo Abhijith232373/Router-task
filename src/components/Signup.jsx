@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import './Main.css';
 const Signup = () => {
+
   return (
-    <div>
+    <div className="colorcode">
         <h2>Sigun page</h2>
-        <label htmlFor="">Name:</label>
+        <label>Name:</label>
         <input type="text" /><br />
-        <label htmlFor="">email</label>
+        <label >email</label>
         <input type="email" /><br />
-        <label htmlFor="">password</label>
+        <label >password</label>
         <input type="password" />
-        <br />
+        <br/>
        <Link to='/Login' style={{color:"green"}} ><button>Signup</button></Link> 
     </div>
   )

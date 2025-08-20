@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <div> 
+    <div style={colorcode}> 
         <h2>Login page</h2>
         <label htmlFor="">email</label>
         <input type="email" /><br />
